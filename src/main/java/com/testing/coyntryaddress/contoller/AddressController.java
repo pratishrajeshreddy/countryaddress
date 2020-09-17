@@ -26,7 +26,7 @@ public class AddressController {
 	}
 
 	@GetMapping("{countryCode}")
-	public ResponseEntity<Object> getEnrollee(@PathVariable String countryCode) {
+	public ResponseEntity<Object> getAddress(@PathVariable String countryCode) {
 		Address address = addressService.getAddress(countryCode);
 
 		if (address != null) {
