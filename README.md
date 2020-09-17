@@ -1,11 +1,8 @@
-# HealthCare Application
+# Get Address by Country Code Application
 
-This microservice is developed with two entities Enrollee and Dependent to track the status of enrollees in a health care program. 
+This microservice is developed to retrieve all the address fields based on the country code (USA or CAN).
 
-Enrollee will have ID, Name, BirthDate, ActivationStatus, PhoneNumber (Optional)
-Dependent will have ID, Name, BirthDate
-
-Enrollee can have zero or more dependents
+Address will have ID  ID, country, addressLine1, addressLine2, street, city, state, country, countryCode, zipCode
 
 ## Getting Started
 
